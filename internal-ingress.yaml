@@ -1,0 +1,7 @@
+rbac.create: true
+controller.publishService.enabled: true
+
+controller:
+  service:
+    annotations:
+      cloud.google.com/load-balancer-type: "Internal"
